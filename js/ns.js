@@ -28,7 +28,7 @@
 
   var $clientcarousel = $('#clients-list');
   var clients = $clientcarousel.children().length;
-  var clientwidth = (clients * 140); // 140px width for each client item
+  var clientwidth = (clients * 180); // 140px width for each client item
   $clientcarousel.css('width',clientwidth);
 
   var rotating = true;

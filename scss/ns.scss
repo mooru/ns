@@ -200,7 +200,7 @@ $span: #1d1b1b;
     display: block;
     float: left;
     position: relative;
-    width: 140px;
+    width: 180px;
     // height: 55px;
     line-height: 120px;
     text-align: center;
@@ -702,9 +702,9 @@ article#node-16 {
     padding: 60px 0;
 }
 
-.contextual-links-region.panel-pane.pane-node.services_header.row {
-    height: 490px;
-}
+// .contextual-links-region.panel-pane.pane-node.services_header.row {
+//     height: 490px;
+// }
 
 .core {
     font-style: italic !important;
@@ -2024,7 +2024,7 @@ header.l-header {
     margin: 200px 0 120px 0 !important;
 }
 
-.blog-list {
+.blog_list {
     padding: 40px 0;
     .field-blog-image.field-wrapper {
     text-align: center;
@@ -2032,6 +2032,8 @@ header.l-header {
     .views-field-title {
         text-align: center;
         font-size: 1.4em;
+        padding: 10px 0;
+        height: 70px;
         a {
             color: #344;
         }
@@ -2058,4 +2060,11 @@ div#at4-whatsnext {
     background: $nics;
     padding: 40px;
     margin-bottom: 40px;
+}
+
+.page-services h1#page-title,
+.page-vacancies h1#page-title,
+.page-contact-us h1#page-title,
+.page-about-us h1#page-title{
+    display: none;
 }

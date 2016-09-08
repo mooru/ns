@@ -9226,7 +9226,7 @@ a.th {
   display: block;
   float: left;
   position: relative;
-  width: 140px;
+  width: 180px;
   line-height: 120px;
   text-align: center;
   padding: 0 10px;
@@ -9839,11 +9839,6 @@ article#node-15 {
 /* line 701, ../scss/ns.scss */
 article#node-16 {
   padding: 60px 0;
-}
-
-/* line 705, ../scss/ns.scss */
-.contextual-links-region.panel-pane.pane-node.services_header.row {
-  height: 490px;
 }
 
 /* line 709, ../scss/ns.scss */
@@ -11374,30 +11369,32 @@ div#about-vision {
 }
 
 /* line 2027, ../scss/ns.scss */
-.blog-list {
+.blog_list {
   padding: 40px 0;
 }
 /* line 2029, ../scss/ns.scss */
-.blog-list .field-blog-image.field-wrapper {
+.blog_list .field-blog-image.field-wrapper {
   text-align: center;
 }
 /* line 2032, ../scss/ns.scss */
-.blog-list .views-field-title {
+.blog_list .views-field-title {
   text-align: center;
   font-size: 1.4em;
+  padding: 10px 0;
+  height: 70px;
 }
-/* line 2035, ../scss/ns.scss */
-.blog-list .views-field-title a {
+/* line 2037, ../scss/ns.scss */
+.blog_list .views-field-title a {
   color: #344;
 }
 
-/* line 2041, ../scss/ns.scss */
+/* line 2043, ../scss/ns.scss */
 .view-blog-categories {
   background: url("/sites/default/files/price-tag.png") 0 center no-repeat;
   padding: 0px 0px 2px 25px;
 }
 
-/* line 2047, ../scss/ns.scss */
+/* line 2049, ../scss/ns.scss */
 .page-blog.views-page .addthis-smartlayers,
 .page-blog.views-page div#at4-follow,
 .page-blog.views-page div#at4-share,
@@ -11406,9 +11403,17 @@ div#about-vision {
   display: none !important;
 }
 
-/* line 2057, ../scss/ns.scss */
+/* line 2059, ../scss/ns.scss */
 .block.block-mailchimp-signup.block-mailchimp-signup-blog-signup-form {
   background: #d8b42b;
   padding: 40px;
   margin-bottom: 40px;
+}
+
+/* line 2065, ../scss/ns.scss */
+.page-services h1#page-title,
+.page-vacancies h1#page-title,
+.page-contact-us h1#page-title,
+.page-about-us h1#page-title {
+  display: none;
 }
