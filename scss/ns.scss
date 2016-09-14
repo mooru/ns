@@ -63,6 +63,7 @@
 // IE8 Grid Support
 //@import "ie";
 $nics: #d8b42b;
+//$nics: #375ddd;
 $color-background: #F5F5F5;
 $color-main: #FF5252;
 $color-active: #FFF;
@@ -2032,8 +2033,8 @@ header.l-header {
     .views-field-title {
         text-align: center;
         font-size: 1.4em;
-        padding: 10px 0;
         height: 70px;
+        line-height:70px;
         a {
             color: #344;
         }
@@ -2041,8 +2042,8 @@ header.l-header {
 }
 
 .view-blog-categories {
-background: url("/sites/default/files/price-tag.png") 0 center no-repeat;
-padding: 0px 0px 2px 25px;
+ background: url("/sites/default/files/price-tag.png") 0 center no-repeat;
+ padding: 0px 0px 2px 25px;
 }
 
 .page-blog.views-page  {
@@ -2051,20 +2052,27 @@ div#at4-follow,
 div#at4-share,
 div#at4-thankyou,
 div#at4-whatsnext {
-
-    display: none !important;
+  display: none !important;
 }
 }
 
-.block.block-mailchimp-signup.block-mailchimp-signup-blog-signup-form {
+.block.block-mailchimp-signup.block-mailchimp-signup-blog-signup-form,
+.block.block-mailchimp-signup.block-mailchimp-signup-vacancy{
     background: $nics;
     padding: 40px;
     margin-bottom: 40px;
 }
-
+//.mailchimp-signup-subscribe-form .mailchimp-signup-subscribe-form-description {
+//  text-align: center;
+//}
 .page-services h1#page-title,
 .page-vacancies h1#page-title,
 .page-contact-us h1#page-title,
 .page-about-us h1#page-title{
     display: none;
+}
+
+.view-ns-jobs .view-empty p {
+  font-size: 1.5em;
+  text-align: center;
 }
