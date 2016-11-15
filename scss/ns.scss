@@ -1173,7 +1173,7 @@ right: 5%;
     position: relative;
     top: 85px;
     padding: 100px 0;
-    background-image: url("/sites/default/files/2.jpg");
+    background-image: url("/ns/sites/default/files/2.jpg");
 }
 
 #edit-message {
@@ -1256,7 +1256,7 @@ right: 5%;
 
 select {
     font-size: 15px;
-    background-image: url(/sites/default/files/dropdown.png);
+    background-image: url("ns/sites/default/files/dropdown.png");
     background-position: right top;
     background-size: 40px 40px;
     background-repeat: no-repeat;
@@ -1281,7 +1281,7 @@ select {
 
 .views-widget #edit-data {
   font-size: 15px;
-    background-image: url(/sites/default/files/dropdown.png);
+    background-image: url("/ns/sites/default/files/dropdown.png");
     background-position: right top;
     background-size: 40px 40px;
     background-repeat: no-repeat;
@@ -2075,4 +2075,8 @@ div#at4-whatsnext {
 .view-ns-jobs .view-empty p {
   font-size: 1.5em;
   text-align: center;
+}
+
+.top_img {
+    width: 100%;
 }
