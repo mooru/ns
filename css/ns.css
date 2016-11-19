@@ -10482,7 +10482,7 @@ header.l-header {
 /* line 1257, ../scss/ns.scss */
 select {
   font-size: 15px;
-  background-image: url("ns/sites/default/files/dropdown.png");
+  background-image: url("/sites/default/files/dropdown.png");
   background-position: right top;
   background-size: 40px 40px;
   background-repeat: no-repeat;
@@ -10507,7 +10507,7 @@ select {
 /* line 1282, ../scss/ns.scss */
 .views-widget #edit-data {
   font-size: 15px;
-  background-image: url("/ns/sites/default/files/dropdown.png");
+  background-image: url("/sites/default/files/dropdown.png");
   background-position: right top;
   background-size: 40px 40px;
   background-repeat: no-repeat;
