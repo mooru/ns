@@ -91,7 +91,7 @@ $span: #1d1b1b;
         padding: 0 !important;
     }
     .fs6 {
-        height: 235px;
+        height: 255px;
         background-color: $nics;
         h3 {
             &:hover {
@@ -2079,4 +2079,11 @@ div#at4-whatsnext {
 
 .top_img {
     width: 100%;
+}
+
+@media screen and (min-width:1200px) and (max-width: 1600px) {
+.image-box img{
+    height:255px;
+    width:100%;
+}
 }

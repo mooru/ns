@@ -9096,7 +9096,7 @@ a.th {
 
   /* line 93, ../scss/ns.scss */
   .fs6 {
-    height: 235px;
+    height: 255px;
     background-color: #d8b42b;
   }
   /* line 97, ../scss/ns.scss */
@@ -11428,4 +11428,12 @@ div#about-vision {
 /* line 2080, ../scss/ns.scss */
 .top_img {
   width: 100%;
+}
+
+@media screen and (min-width: 1200px) and (max-width: 1600px) {
+  /* line 2085, ../scss/ns.scss */
+  .image-box img {
+    height: 255px;
+    width: 100%;
+  }
 }
