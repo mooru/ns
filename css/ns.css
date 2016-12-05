@@ -10391,8 +10391,8 @@ header.l-header {
 
 /* line 1179, ../scss/ns.scss */
 #edit-message {
-  max-width: 610px;
-  min-width: 610px;
+  max-width: 605px;
+  min-width: 605px;
   min-height: 170px;
 }
 
