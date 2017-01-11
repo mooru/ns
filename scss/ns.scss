@@ -660,10 +660,34 @@ top: 614px;
 // top: 745px;
 // }
 
-.process {
+@media all and (max-width:999px) {
+   .process {
     @include grid-column($columns: 8, $center: true);
+} 
 }
 
+@media all and (max-width:480px) {
+   .process {
+    @include grid-column($columns: 10, $center: true);
+} 
+}
+
+@media all and (max-width:480px) {
+.sp h2 {
+    font-size: 1.4em !important;
+}
+}
+
+@media all and (max-width:480px) {
+.sp {
+     padding: 10px 0 !important;
+    p, ul li {
+    font-size: 1em !important;
+}
+}
+}
+
+@media all and (max-width:999px) {
 .sp {
     padding: 40px 0;
     .serv2 {
@@ -683,8 +707,9 @@ top: 614px;
     ul li {
         font-size: 1.4em;
         color: #6f6d6d;
-        list-style-image: url("/ns/sites/default/files/scon.gif");
+        list-style-image: url("/sites/default/files/scon.gif");
     }
+}
 }
 @media all and (max-width:999px) {
 .serv_intro {
