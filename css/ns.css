@@ -11437,3 +11437,7 @@ div#about-vision {
     width: 100%;
   }
 }
+/* line 2092, ../scss/ns.scss */
+.section1 .pane-content {
+  margin-bottom: -20px;
+}
