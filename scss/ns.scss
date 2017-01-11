@@ -1185,6 +1185,8 @@ right: 5%;
 }
 
 
+
+@media all and (max-width:999px){
   #contact2 {
 #node-35 {
    @include grid-column($columns:6);
@@ -1194,10 +1196,10 @@ right: 5%;
     color:#fff;
 
   }
-
+}
 }
 
-
+@media all and (max-width:999px){
 #contact-site-form {
    @include grid-column($columns:6);
    label {
@@ -1209,7 +1211,34 @@ right: 5%;
 
    }
 }
+}
 
+@media all and (max-width:480px){
+  #contact2 {
+#node-35 {
+   @include grid-column($columns:12);
+}
+  p {
+    font-size: 1em;
+    color:#fff;
+
+  }
+}
+}
+
+@media all and (max-width:480px){
+#contact-site-form {
+   @include grid-column($columns:12);
+   label {
+     color: #fff;
+     padding: 10px 0;
+     background-color: $nics;
+     margin-bottom: 0;
+     text-align: center;
+
+   }
+}
+}
 
 
 
@@ -1233,18 +1262,39 @@ right: 5%;
           transition: background 2s;
 
 }
-
+    
+ @media all and (max-width:999px){   
 .contact_page {
     position: relative;
     top: 85px;
     padding: 100px 0;
     background-image: url("/sites/default/files/2.jpg");
 }
+}
 
+ @media all and (max-width:480px){   
+.contact_page {
+    position: relative;
+    top: 0px;
+    padding: 100px 0;
+    background-image: url("/sites/default/files/2.jpg");
+}
+}
+
+@media all and (max-width:999px){
 #edit-message {
     max-width: 605px;
     min-width: 605px;
     min-height: 170px;
+}
+}
+
+@media all and (max-width:480px){
+#edit-message {
+    max-width: 400px;
+    min-height: 170px;
+    min-width: 100px;
+}
 }
 .resizable-textarea .grippie {
   display: none;
@@ -2172,5 +2222,11 @@ div#at4-whatsnext {
 
     .statement p {
     font-size: 0.9em;
+}
+}
+
+@media all and (max-width:480px){
+.page-contact-us .large-12.main.columns {
+    margin-bottom: -85px;
 }
 }
