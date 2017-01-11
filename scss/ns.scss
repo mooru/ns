@@ -572,6 +572,16 @@ footer.l-footer.panel.row {
     display: none;
 }
 
+@media all and (max-width:999px) {
+ .breadcrumbs{
+        font-size: 0.6875em;
+    }
+}
+@media all and (max-width:480px) {
+    .breadcrumbs{
+        font-size: 0.5875em;
+    }
+}
 .node-type-career .breadcrumbs ,
 .page-node-23 .breadcrumbs,
 .node-type-blog .breadcrumbs{
@@ -583,10 +593,19 @@ footer.l-footer.panel.row {
     margin-top: 150px;
 }
 
-
+@media all and (max-width:999px){
 .page-node-23 .breadcrumbs {
     @include grid-column($columns:8, $center:true);
 }
+}
+
+@media all and (max-width:480px){
+.page-node-23 .breadcrumbs {
+    @include grid-column($columns:12, $center:true);
+}
+}
+
+
 
 article#node-15 {
     margin-top: -19px;
@@ -998,8 +1017,15 @@ header.l-header {
     }
 }
 
+@media all and (max-width:999px){
 #node-23 {
     @include grid-column($columns: 8, $center: true);
+}
+}
+@media all and (max-width:480px){
+  #node-23 {
+    @include grid-column($columns: 10, $center: true);
+}  
 }
 
 .form-item.webform-component.webform-component-select.webform-component--status,
