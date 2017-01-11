@@ -686,11 +686,20 @@ top: 614px;
         list-style-image: url("/ns/sites/default/files/scon.gif");
     }
 }
-
+@media all and (max-width:999px) {
 .serv_intro {
     @include grid-column($columns: 6, $center: true);
     font-size: 2em;
     text-align: center;
+}
+}
+
+@media all and (max-width:480px) {
+    .serv_intro{
+     @include grid-column($columns: 10, $center: true);
+    font-size: 1em;
+    text-align: center;
+}
 }
 
 .services_top {
@@ -730,6 +739,11 @@ header.l-header {
     padding: 10px 0 0 20px;
 }
 
+@media all and (max-width:480px) {
+ .logo {
+    padding: 6px 0 0 20px;
+}
+}
 
 //Menu
 .button_container {
@@ -1786,10 +1800,11 @@ div#about-vision {
 }
 }
 
+
 @media all and (max-width:669px) and (orientation: portrait) {
   .hero_text {
     position: absolute;
-    top: 1.2%;
+    top: 1.8%;
     left: 2%;
     text-align: center;
     h1 {
@@ -1915,9 +1930,9 @@ header.l-header {
   }
 @media all and (max-width:480px) {
   .fs6 {
-        height: 117px;
+        height: 150px;
+        width: 100%;
         background-color: $nics;
-        margin-bottom: 20px;
         h3 {
             &:hover {
                 color: #f4f4f4;
@@ -2092,4 +2107,19 @@ div#at4-whatsnext {
     .pane-content {
         margin-bottom: -20px;
     }
+}
+
+@media all and (max-width:480px) {
+.block.block-block-2 p {
+    color: #fcfcfc;
+    margin-bottom: 0;
+    padding: 0px 0;
+}
+.our_vision h1, .section_values h1{
+    font-size:2em ;
+    }
+
+    .statement p {
+    font-size: 0.9em;
+}
 }
