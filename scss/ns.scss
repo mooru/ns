@@ -178,6 +178,29 @@ $span: #1d1b1b;
 }
 }
 
+@media only screen and (min-width:768px) {
+  .hero_text {
+    position: absolute;
+    top: 23%;
+    left: 2%;
+    text-align: center;
+    .tw .fa:hover {
+      color:#1da1f2;
+    }
+    .fb .fa:hover {
+    color:#3b5998;
+    }
+    h1 {
+        font-size: 3em;
+        color:#fff;
+    }
+    p {
+        font-size: 1.5em;
+        color: #d8b42b;
+    }
+}
+}
+
 
 
 #node-11 {
