@@ -1268,11 +1268,27 @@ header.l-header {
     right: 0;
 }
 
-@media all and (max-width:1440px) {
+@media all and (min-width: 1200px) and (max-width:1440px) {
     .mmenu {
         position: fixed;
         top: 6%;
         right: 5%;
+    }
+}
+
+@media all and (min-width: 320px) and (max-width:568px) {
+    .mmenu {
+        position: fixed;
+        top: 2%;
+        right: 13%;
+    }
+}
+
+@media all and (min-width: 320px) and (max-width:480px) {
+    .mmenu {
+        position: fixed;
+        top: 2%;
+        right: 13%;
     }
 }
 
@@ -1282,6 +1298,21 @@ header.l-header {
         top: 2%;
         right: 13%;
     }
+}
+
+@media all and (min-width:320px) and (max-width:480px) {
+    .button_container {
+    position: fixed;
+    top: 2%;
+    right: 14%;
+    }
+}
+
+@media all and (min-width:320px) and (max-width:568px) {
+    .button_container {
+    position: fixed;
+    top: 2%;
+    right: 14%;    }
 }
 
 @media all and (min-width:360px) and (max-width:640px) and (orientation: landscape){
@@ -2086,6 +2117,13 @@ div#about-vision {
     }
 }
 
+@media all and (min-width:320px) and (max-width:568px) {
+    .logo {
+        width: 33%;
+        padding: 4px 0 0 20px;
+    }
+}
+
 @media all and (min-width:768px) and (max-width:1024px) {
     .logo {
         width: 25%;
@@ -2191,23 +2229,78 @@ div#about-vision {
     }
 }
 
-@media all and (max-width:360px) {
+
+@media all and (min-width:380px) and (max-width:640px) {
     .hero_text {
         position: absolute;
-        width: 56%;
         top: 2%;
-        left: 2%;
+        left: 1%;
         text-align: center;
         h1 {
             font-size: 1em;
             color: #fff;
         }
         p {
-            font-size: 0.56em;
+            font-size: 0.7em;
             color: $nics;
         }
     }
 }
+
+@media all and (min-width:320px) and (max-width:568px) {
+    .hero_text {
+        width: 56%;
+        position: absolute;
+        top: 1.4%;
+        left: 1%;
+        text-align: center;
+        h1 {
+            font-size: 1em;
+            color: #fff;
+        }
+        p {
+            font-size: 0.3em;
+            color: $nics;
+        }
+    }
+}
+
+
+@media all and (min-width:375px) and (max-width:667px) {
+    .hero_text {
+        position: absolute;
+        top: 2%;
+        left: 1%;
+        text-align: center;
+        h1 {
+            font-size: 1em;
+            color: #fff;
+        }
+        p {
+            font-size: 0.7em;
+            color: $nics;
+        }
+    }
+}
+
+
+// @media all and (max-width:360px) {
+//     .hero_text {
+//         position: absolute;
+//         width: 56%;
+//         top: 2%;
+//         left: 2%;
+//         text-align: center;
+//         h1 {
+//             font-size: 1em;
+//             color: #fff;
+//         }
+//         p {
+//             font-size: 0.56em;
+//             color: $nics;
+//         }
+//     }
+// }
 
 @media all and (min-width:600px) and (max-width: 960px) and (orientation: portrait) {
     .button_container {
@@ -2220,6 +2313,21 @@ div#about-vision {
     .button_container {
         position: fixed;
         top: 1%;
+    }
+}
+
+@media all and (min-width:320px) and (max-width: 480px) {
+    .button_container {
+        position: fixed;
+        top: 1%;
+    }
+}
+
+@media all and (min-width:320px) and (max-width: 568px) {
+    .button_container {
+        position: fixed;
+        top: 1%;
+        right: 2%;
     }
 }
 
@@ -2250,6 +2358,15 @@ div#about-vision {
 }
 
 @media all and (min-width: 360px) and (max-width:640px) and (orientation: portrait){
+    .quote {
+        font-size: 0.7em;
+        text-align: center;
+    font-weight: bold;
+    padding-bottom: 0px;
+    }
+}
+
+@media all and (min-width:320px) and (max-width:568px) {
     .quote {
         font-size: 0.7em;
         text-align: center;
