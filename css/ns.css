@@ -9801,7 +9801,7 @@ article#node-15 {
   top: 614px;
 }
 
-@media all and (max-width: 999px) {
+@media all and (max-width: 1440px) {
   /* line 683, ../scss/ns.scss */
   .process {
     position: relative;
@@ -9843,7 +9843,7 @@ article#node-15 {
     font-size: 1em !important;
   }
 }
-@media all and (max-width: 999px) {
+@media all and (max-width: 1440px) {
   /* line 710, ../scss/ns.scss */
   .sp {
     padding: 40px 0;
@@ -9872,7 +9872,7 @@ article#node-15 {
     list-style-image: url("/sites/default/files/scon.gif");
   }
 }
-@media all and (max-width: 999px) {
+@media all and (max-width: 1440px) {
   /* line 734, ../scss/ns.scss */
   .serv_intro {
     position: relative;
@@ -10423,7 +10423,7 @@ header.l-header {
   right: 5%;
 }
 
-@media all and (max-width: 999px) {
+@media all and (max-width: 1440px) {
   /* line 1191, ../scss/ns.scss */
   #contact2 #node-35 {
     position: relative;
@@ -10438,7 +10438,7 @@ header.l-header {
     color: #fff;
   }
 }
-@media all and (max-width: 999px) {
+@media all and (max-width: 1440px) {
   /* line 1203, ../scss/ns.scss */
   #contact-site-form {
     position: relative;
@@ -10509,7 +10509,7 @@ header.l-header {
   transition: background 2s;
 }
 
-@media all and (max-width: 999px) {
+@media all and (max-width: 1440px) {
   /* line 1267, ../scss/ns.scss */
   .contact_page {
     position: relative;
@@ -10527,7 +10527,7 @@ header.l-header {
     background-image: url("/sites/default/files/2.jpg");
   }
 }
-@media all and (max-width: 999px) {
+@media all and (max-width: 1440px) {
   /* line 1285, ../scss/ns.scss */
   #edit-message {
     max-width: 605px;
@@ -11612,4 +11612,13 @@ div#about-vision {
   .page-contact-us .large-12.main.columns {
     margin-bottom: -85px;
   }
+}
+/* line 2235, ../scss/ns.scss */
+#node-53 h1 {
+  font-size: 4em;
+  text-align: center;
+}
+/* line 2240, ../scss/ns.scss */
+#node-53 p {
+  text-align: center;
 }

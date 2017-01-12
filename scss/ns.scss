@@ -679,7 +679,7 @@ top: 614px;
 // top: 745px;
 // }
 
-@media all and (max-width:999px) {
+@media all and (max-width:1440px) {
    .process {
     @include grid-column($columns: 8, $center: true);
 } 
@@ -706,7 +706,7 @@ top: 614px;
 }
 }
 
-@media all and (max-width:999px) {
+@media all and (max-width:1440px) {
 .sp {
     padding: 40px 0;
     .serv2 {
@@ -730,7 +730,7 @@ top: 614px;
     }
 }
 }
-@media all and (max-width:999px) {
+@media all and (max-width:1440px) {
 .serv_intro {
     @include grid-column($columns: 6, $center: true);
     font-size: 2em;
@@ -1186,7 +1186,7 @@ right: 5%;
 
 
 
-@media all and (max-width:999px){
+@media all and (max-width:1440px){
   #contact2 {
 #node-35 {
    @include grid-column($columns:6);
@@ -1199,7 +1199,7 @@ right: 5%;
 }
 }
 
-@media all and (max-width:999px){
+@media all and (max-width:1440px){
 #contact-site-form {
    @include grid-column($columns:6);
    label {
@@ -1263,7 +1263,7 @@ right: 5%;
 
 }
     
- @media all and (max-width:999px){   
+ @media all and (max-width:1440px){   
 .contact_page {
     position: relative;
     top: 85px;
@@ -1281,7 +1281,7 @@ right: 5%;
 }
 }
 
-@media all and (max-width:999px){
+@media all and (max-width:1440px){
 #edit-message {
     max-width: 605px;
     min-width: 605px;
@@ -2229,4 +2229,15 @@ div#at4-whatsnext {
 .page-contact-us .large-12.main.columns {
     margin-bottom: -85px;
 }
+}
+
+#node-53{
+    h1 {
+        font-size: 4em;
+        text-align: center;
+    }
+
+    p{
+        text-align: center;
+    }
 }
