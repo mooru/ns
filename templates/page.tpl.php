@@ -56,7 +56,7 @@
       <?php endif; ?>
 
       <?php if ($alt_main_menu): ?>
-        <div class=mmenu>Menu</div>
+        <div class="mmenu" id="mnav">Menu</div>
         <div class="button_container" id="toggle">
   <span class="top"></span>
   <span class="middle"></span>

@@ -156,6 +156,29 @@ $span: #1d1b1b;
     }
 }
 
+@media only screen and (min-width:320px) and (max-width:480px) and (orientation:portrait){
+  .hero_text {
+    position: absolute;
+    top: 2%;
+    left: 2%;
+    text-align: center;
+    .tw .fa:hover {
+      color:#1da1f2;
+    }
+    .fb .fa:hover {
+    color:#3b5998;
+    }
+    h1 {
+        font-size: 1em;
+        color:#fff;
+    }
+    p {
+        font-size: 0.5em;
+        color: #d8b42b;
+    }
+}
+}
+
 
 @media only screen and (min-width:768px) and (max-width:1024px){
   .hero_text {
@@ -994,6 +1017,14 @@ header.l-header {
     width: 26%;
 }
 }
+
+  @media only screen and (max-width:600px) {
+.logo {
+    padding: 6px 0 0 20px;
+    width: 19%;
+}
+}
+
 @media all and (min-width:320px) and (max-width:736px) and (orientation:landscape) {
 .logo {
     padding: 6px 0 0 20px;
@@ -2313,7 +2344,7 @@ div#about-vision {
   }
 }
 
-@media all and (min-width:300px) and (max-width:1024px) {
+@media all and (min-width:320px) and (max-width:768px) {
   .mmenu {
     display: none;
   }
