@@ -2489,6 +2489,11 @@ div#about-vision {
     padding: 40px 0;
     .field-blog-image.field-wrapper {
     text-align: center;
+    border: 2px solid #eee;
+    margin: 0 10px;
+    img {
+        width: 100%;
+    }
 }
     .views-field-title {
         text-align: center;
@@ -2591,5 +2596,5 @@ div#at4-whatsnext {
     width: 100%;   
 }
 #at-cv-lightbox, .at-cv-lightbox-background {
-display:none !important:
+display:none !important;
 }

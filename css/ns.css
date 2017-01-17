@@ -11940,26 +11940,31 @@ div#about-vision {
 /* line 2490, ../scss/ns.scss */
 .blog_list .field-blog-image.field-wrapper {
   text-align: center;
+  border: 2px solid #eee;
+  margin: 0 10px;
 }
-/* line 2493, ../scss/ns.scss */
+/* line 2494, ../scss/ns.scss */
+.blog_list .field-blog-image.field-wrapper img {
+  width: 100%;
+}
+/* line 2498, ../scss/ns.scss */
 .blog_list .views-field-title {
   text-align: center;
   font-size: 1.4em;
-  height: 70px;
-  line-height: 70px;
+  margin-bottom: 5px;
 }
-/* line 2498, ../scss/ns.scss */
+/* line 2504, ../scss/ns.scss */
 .blog_list .views-field-title a {
   color: #344;
 }
 
-/* line 2504, ../scss/ns.scss */
+/* line 2510, ../scss/ns.scss */
 .view-blog-categories {
   background: url("/sites/default/files/price-tag.png") 0 center no-repeat;
   padding: 0px 0px 2px 25px;
 }
 
-/* line 2510, ../scss/ns.scss */
+/* line 2516, ../scss/ns.scss */
 .page-blog.views-page .addthis-smartlayers,
 .page-blog.views-page div#at4-follow,
 .page-blog.views-page div#at4-share,
@@ -11968,7 +11973,7 @@ div#about-vision {
   display: none !important;
 }
 
-/* line 2519, ../scss/ns.scss */
+/* line 2525, ../scss/ns.scss */
 .block.block-mailchimp-signup.block-mailchimp-signup-blog-signup-form,
 .block.block-mailchimp-signup.block-mailchimp-signup-vacancy {
   background: #d8b42b;
@@ -11976,7 +11981,7 @@ div#about-vision {
   margin-bottom: 40px;
 }
 
-/* line 2528, ../scss/ns.scss */
+/* line 2534, ../scss/ns.scss */
 .page-services h1#page-title,
 .page-vacancies h1#page-title,
 .page-contact-us h1#page-title,
@@ -11984,59 +11989,69 @@ div#about-vision {
   display: none;
 }
 
-/* line 2535, ../scss/ns.scss */
+/* line 2541, ../scss/ns.scss */
 .view-ns-jobs .view-empty p {
   font-size: 1.5em;
   text-align: center;
 }
 
-/* line 2540, ../scss/ns.scss */
+/* line 2546, ../scss/ns.scss */
 .top_img {
   width: 100%;
 }
 
 @media screen and (min-width: 1200px) and (max-width: 1600px) {
-  /* line 2545, ../scss/ns.scss */
+  /* line 2551, ../scss/ns.scss */
   .image-box img {
     height: 255px;
     width: 100%;
   }
 }
-/* line 2552, ../scss/ns.scss */
+/* line 2558, ../scss/ns.scss */
 .section1 .pane-content {
   margin-bottom: -20px;
 }
 
 @media all and (max-width: 480px) {
-  /* line 2558, ../scss/ns.scss */
+  /* line 2564, ../scss/ns.scss */
   .block.block-block-2 p {
     color: #fcfcfc;
     margin-bottom: 0;
     padding: 0px 0;
   }
 
-  /* line 2563, ../scss/ns.scss */
+  /* line 2569, ../scss/ns.scss */
   .our_vision h1, .section_values h1 {
     font-size: 2em;
   }
 
-  /* line 2567, ../scss/ns.scss */
+  /* line 2573, ../scss/ns.scss */
   .statement p {
     font-size: 0.9em;
   }
 }
 @media all and (max-width: 480px) {
-  /* line 2573, ../scss/ns.scss */
+  /* line 2579, ../scss/ns.scss */
   .page-contact-us .large-12.main.columns {
     margin-bottom: -85px;
   }
 }
-/* line 2579, ../scss/ns.scss */
+/* line 2585, ../scss/ns.scss */
 #node-53 h1 {
   font-size: 4em;
   text-align: center;
 }
-/* line 2584, ../scss/ns.scss */
+/* line 2590, ../scss/ns.scss */
 #node-53 p {
   text-align: center;
+}
+
+/* line 2595, ../scss/ns.scss */
+#node-15 img {
+  width: 100%;
+}
+
+/* line 2598, ../scss/ns.scss */
+#at-cv-lightbox, .at-cv-lightbox-background {
+  display: none !important;
 }
