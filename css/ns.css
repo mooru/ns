@@ -11958,13 +11958,19 @@ div#about-vision {
   color: #344;
 }
 
-/* line 2510, ../scss/ns.scss */
+@media only screen and (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
+  /* line 2512, ../scss/ns.scss */
+  .blog_list .views-field-title {
+    font-size: 1em;
+  }
+}
+/* line 2518, ../scss/ns.scss */
 .view-blog-categories {
   background: url("/sites/default/files/price-tag.png") 0 center no-repeat;
   padding: 0px 0px 2px 25px;
 }
 
-/* line 2516, ../scss/ns.scss */
+/* line 2524, ../scss/ns.scss */
 .page-blog.views-page .addthis-smartlayers,
 .page-blog.views-page div#at4-follow,
 .page-blog.views-page div#at4-share,
@@ -11973,7 +11979,7 @@ div#about-vision {
   display: none !important;
 }
 
-/* line 2525, ../scss/ns.scss */
+/* line 2533, ../scss/ns.scss */
 .block.block-mailchimp-signup.block-mailchimp-signup-blog-signup-form,
 .block.block-mailchimp-signup.block-mailchimp-signup-vacancy {
   background: #d8b42b;
@@ -11981,7 +11987,7 @@ div#about-vision {
   margin-bottom: 40px;
 }
 
-/* line 2534, ../scss/ns.scss */
+/* line 2542, ../scss/ns.scss */
 .page-services h1#page-title,
 .page-vacancies h1#page-title,
 .page-contact-us h1#page-title,
@@ -11989,69 +11995,69 @@ div#about-vision {
   display: none;
 }
 
-/* line 2541, ../scss/ns.scss */
+/* line 2549, ../scss/ns.scss */
 .view-ns-jobs .view-empty p {
   font-size: 1.5em;
   text-align: center;
 }
 
-/* line 2546, ../scss/ns.scss */
+/* line 2554, ../scss/ns.scss */
 .top_img {
   width: 100%;
 }
 
 @media screen and (min-width: 1200px) and (max-width: 1600px) {
-  /* line 2551, ../scss/ns.scss */
+  /* line 2559, ../scss/ns.scss */
   .image-box img {
     height: 255px;
     width: 100%;
   }
 }
-/* line 2558, ../scss/ns.scss */
+/* line 2566, ../scss/ns.scss */
 .section1 .pane-content {
   margin-bottom: -20px;
 }
 
 @media all and (max-width: 480px) {
-  /* line 2564, ../scss/ns.scss */
+  /* line 2572, ../scss/ns.scss */
   .block.block-block-2 p {
     color: #fcfcfc;
     margin-bottom: 0;
     padding: 0px 0;
   }
 
-  /* line 2569, ../scss/ns.scss */
+  /* line 2577, ../scss/ns.scss */
   .our_vision h1, .section_values h1 {
     font-size: 2em;
   }
 
-  /* line 2573, ../scss/ns.scss */
+  /* line 2581, ../scss/ns.scss */
   .statement p {
     font-size: 0.9em;
   }
 }
 @media all and (max-width: 480px) {
-  /* line 2579, ../scss/ns.scss */
+  /* line 2587, ../scss/ns.scss */
   .page-contact-us .large-12.main.columns {
     margin-bottom: -85px;
   }
 }
-/* line 2585, ../scss/ns.scss */
+/* line 2593, ../scss/ns.scss */
 #node-53 h1 {
   font-size: 4em;
   text-align: center;
 }
-/* line 2590, ../scss/ns.scss */
+/* line 2598, ../scss/ns.scss */
 #node-53 p {
   text-align: center;
 }
 
-/* line 2595, ../scss/ns.scss */
+/* line 2603, ../scss/ns.scss */
 #node-15 img {
   width: 100%;
 }
 
-/* line 2598, ../scss/ns.scss */
+/* line 2606, ../scss/ns.scss */
 #at-cv-lightbox, .at-cv-lightbox-background {
   display: none !important;
 }

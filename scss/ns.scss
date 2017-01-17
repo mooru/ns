@@ -2507,6 +2507,14 @@ div#about-vision {
     }
 }
 
+@media only screen and (min-width:768px) and (max-width:1024px) and (orientation:landscape) {
+.blog_list {
+    .views-field-title {
+      font-size: 1em;  
+    }   
+}
+}
+
 .view-blog-categories {
  background: url("/sites/default/files/price-tag.png") 0 center no-repeat;
  padding: 0px 0px 2px 25px;
