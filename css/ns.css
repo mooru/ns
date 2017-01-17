@@ -12061,3 +12061,8 @@ div#about-vision {
 #at-cv-lightbox, .at-cv-lightbox-background {
   display: none !important;
 }
+
+/* line 2611, ../scss/ns.scss */
+.group-content .field-blog-image.field-wrapper {
+  border: 1px solid #ccc;
+}

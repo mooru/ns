@@ -2606,3 +2606,9 @@ div#at4-whatsnext {
 #at-cv-lightbox, .at-cv-lightbox-background {
 display:none !important;
 }
+
+.group-content {
+    .field-blog-image.field-wrapper {
+    border: 1px solid #ccc;
+}
+}
