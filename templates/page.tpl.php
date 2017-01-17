@@ -56,11 +56,13 @@
       <?php endif; ?>
 
       <?php if ($alt_main_menu): ?>
+        <div>
         <div class="mmenu" id="mnav">Menu</div>
         <div class="button_container" id="toggle">
   <span class="top"></span>
   <span class="middle"></span>
   <span class="bottom"></span>
+</div>
 </div>
 <div class="overlay" id="overlay">
         <nav id="main-menu" class="navigation overlay-menu" role="navigation">
