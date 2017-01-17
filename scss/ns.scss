@@ -777,13 +777,15 @@ footer.l-footer.panel.row {
     display: block;
 }
 
-.node-type-blog .breadcrumbs {
+.node-type-blog .breadcrumbs,
+.node-type-blog .button-group {
     @include grid-column($columns:8, $center:true);
     margin-top: 150px;
 }
 
 @media all and (max-width:1440px){
-.page-node-23 .breadcrumbs {
+.page-node-23 .breadcrumbs,
+.page-node-23 .button-group {
     @include grid-column($columns:8, $center:true);
 }
 }
