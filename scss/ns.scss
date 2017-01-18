@@ -1335,6 +1335,7 @@ top:77px;
     .messages.status {
       background-color: $nics;
       border-color: #f3f3f3;
+      display: none;
       a {
         color:#fff;
         text-decoration: underline;
