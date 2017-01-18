@@ -12074,3 +12074,22 @@ div#about-vision {
 .form-item.webform-component.webform-component-email.webform-component--email {
   display: none !important;
 }
+
+/* line 2623, ../scss/ns.scss */
+#node-54 {
+  text-align: center;
+  margin-top: 200px;
+}
+/* line 2626, ../scss/ns.scss */
+#node-54 h1 {
+  font-size: 5em;
+}
+
+/* line 2631, ../scss/ns.scss */
+.page-node-54 #page-title {
+  display: none;
+}
+/* line 2633, ../scss/ns.scss */
+.page-node-54 #page-title footer.l-footer.panel.row {
+  display: none;
+}
