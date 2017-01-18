@@ -12045,51 +12045,60 @@ div#about-vision {
     margin-bottom: -85px;
   }
 }
-/* line 2596, ../scss/ns.scss */
-#node-53 h1 {
-  font-size: 4em;
+/* line 2595, ../scss/ns.scss */
+#node-53 {
   text-align: center;
+  margin-top: 200px;
 }
-/* line 2601, ../scss/ns.scss */
-#node-53 p {
-  text-align: center;
+/* line 2598, ../scss/ns.scss */
+#node-53 h1 {
+  font-size: 5em;
 }
 
-/* line 2606, ../scss/ns.scss */
+/* line 2604, ../scss/ns.scss */
+.page-node-53 h1#page-title {
+  display: none;
+}
+/* line 2607, ../scss/ns.scss */
+.page-node-53 footer.l-footer.panel.row {
+  display: none;
+}
+
+/* line 2612, ../scss/ns.scss */
 #node-15 img {
   width: 100%;
 }
 
-/* line 2609, ../scss/ns.scss */
+/* line 2615, ../scss/ns.scss */
 #at-cv-lightbox, .at-cv-lightbox-background {
   display: none !important;
 }
 
-/* line 2614, ../scss/ns.scss */
+/* line 2620, ../scss/ns.scss */
 .group-content .field-blog-image.field-wrapper {
   border: 1px solid #ccc;
 }
 
-/* line 2619, ../scss/ns.scss */
+/* line 2625, ../scss/ns.scss */
 .form-item.webform-component.webform-component-email.webform-component--email {
   display: none !important;
 }
 
-/* line 2623, ../scss/ns.scss */
+/* line 2629, ../scss/ns.scss */
 #node-54 {
   text-align: center;
   margin-top: 200px;
 }
-/* line 2626, ../scss/ns.scss */
+/* line 2632, ../scss/ns.scss */
 #node-54 h1 {
   font-size: 5em;
 }
 
-/* line 2631, ../scss/ns.scss */
+/* line 2638, ../scss/ns.scss */
 .page-node-54 #page-title {
   display: none;
 }
-/* line 2633, ../scss/ns.scss */
-.page-node-54 #page-title footer.l-footer.panel.row {
+/* line 2641, ../scss/ns.scss */
+.page-node-54 footer.l-footer.panel.row {
   display: none;
 }

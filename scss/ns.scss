@@ -2593,13 +2593,19 @@ div#at4-whatsnext {
 }
 
 #node-53{
+    text-align: center;
+    margin-top: 200px;
     h1 {
-        font-size: 4em;
-        text-align: center;
+        font-size: 5em;   
     }
+}
 
-    p{
-        text-align: center;
+.page-node-53 {
+    h1#page-title {
+    display: none;
+}
+footer.l-footer.panel.row {
+        display: none;
     }
 }
 
@@ -2628,8 +2634,10 @@ display:none !important;
     }
 }
 
-.page-node-54 #page-title {
+.page-node-54 {
+#page-title {
     display: none;
+}
     footer.l-footer.panel.row {
         display: none;
     }
