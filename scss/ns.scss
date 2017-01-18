@@ -1319,8 +1319,14 @@ header.l-header {
 #jobs {
 position: relative;
 top:77px;
-#node-34 img {
-    // max-height: 280px;
+#node-34  {
+    img {
+      // max-height: 280px;  
+    }
+    h2.node-title{
+        display: none;
+    }
+    
     }
 }
 
@@ -2641,4 +2647,8 @@ display:none !important;
     footer.l-footer.panel.row {
         display: none;
     }
+}
+
+#node-18 {
+    margin-top: 50px;
 }
