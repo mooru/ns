@@ -12068,3 +12068,8 @@ div#about-vision {
 .group-content .field-blog-image.field-wrapper {
   border: 1px solid #ccc;
 }
+
+/* line 2618, ../scss/ns.scss */
+.form-item.webform-component.webform-component-email.webform-component--email {
+  display: none !important;
+}
