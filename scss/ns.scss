@@ -1686,8 +1686,8 @@ right: 5%;
  @media all and (max-width:1440px){   
 .contact_page {
     position: relative;
-    top: 85px;
-    padding: 100px 0;
+    top: 86px;
+    padding: 28px 0 0 0;
     background-image: url("/sites/default/files/2.jpg");
     background-repeat: no-repeat;
 }
@@ -1697,8 +1697,8 @@ right: 5%;
 .contact_page {
     position: relative;
     top: 0px;
-    padding: 100px 0;
-    background-image: url("/sites/default/files/2.jpg") no-repeat;
+    padding: 28px 0 0 0;
+    background-image: url("/sites/default/files/2.jpg");
     background-repeat: no-repeat;
 }
 }
