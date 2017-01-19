@@ -1689,6 +1689,7 @@ right: 5%;
     top: 85px;
     padding: 100px 0;
     background-image: url("/sites/default/files/2.jpg");
+    background-repeat: no-repeat;
 }
 }
 
@@ -1697,7 +1698,8 @@ right: 5%;
     position: relative;
     top: 0px;
     padding: 100px 0;
-    background-image: url("/sites/default/files/2.jpg");
+    background-image: url("/sites/default/files/2.jpg") no-repeat;
+    background-repeat: no-repeat;
 }
 }
 
@@ -2651,5 +2653,5 @@ display:none !important;
 }
 
 #node-18 {
-    margin-top: 50px;
+    margin-top: 86px;
 }
