@@ -11012,7 +11012,7 @@ header.l-header {
   .contact_page {
     position: relative;
     top: 86px;
-    padding: 28px 0 0 0;
+    padding: 28px 30px 0;
     background-image: url("/sites/default/files/contact.jpg");
     background-repeat: no-repeat;
   }
